@@ -1,0 +1,20 @@
+cat <<EOF > .gitignore
+# Ignore virtual environment
+venv/
+
+# Ignore large model or checkpoint files
+*.pt
+*.pth
+*.ckpt
+
+# Ignore data and output folders
+data/
+runs/
+outputs/
+*.json
+
+# Misc
+*.log
+__pycache__/
+.DS_Store
+EOF

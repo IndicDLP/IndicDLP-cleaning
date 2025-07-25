@@ -1,0 +1,45 @@
+_wandb:
+    value:
+        cli_version: 0.19.11
+        m: []
+        python_version: 3.12.10
+        t:
+            "1":
+                - 1
+                - 55
+            "2":
+                - 1
+                - 55
+            "3":
+                - 13
+                - 15
+                - 16
+                - 23
+                - 55
+            "4": 3.12.10
+            "5": 0.19.11
+            "8":
+                - 5
+            "12": 0.19.11
+            "13": linux-x86_64
+augmentations:
+    value:
+        degrees: 5
+        erasing: 0.5
+        fliplr: 0
+        hsv_s: 0.7
+        mosaic: 0
+        scale: 0.5
+        shear: 0.1
+batch:
+    value: 64
+data:
+    value: /home/sahithi_kukkala/indicDLP/data/indic_data/data.yaml
+device:
+    value: "0"
+imgsz:
+    value: 1024
+model:
+    value: yolov10x
+patience:
+    value: 5
